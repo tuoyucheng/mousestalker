@@ -1,4 +1,3 @@
- /* マウスストーカー */
 #stkr {
   position: absolute;
   top: 10px;
@@ -13,7 +12,6 @@
   z-index: 10;
 }
 
- /* マウスストーカーの可動範囲 */
 #stkr-area {
   width: 100%;
   height: 300px;
@@ -23,21 +21,19 @@
   background-color: rgb(184, 149, 247, 0.5);
 }
 
- /* ホバーした時の色 */
 .color1 {
-background-color: rgb(247, 77, 155, 0.5) !important;
+  background-color: rgb(247, 77, 155, 0.5) !important;
 }
 
 .color2 {
-background-color: rgb(77, 200, 247, 0.6) !important;
+  background-color: rgb(77, 200, 247, 0.6) !important;
 }
 
-.color3 { 
+.color3 {
   background-color: rgb(77, 247, 82, 0.5) !important;
 }
 
- /* マウスストーカーに影響のない装飾CSS */
- * {
+* {
   margin: 0;
   padding: 0;
 }
